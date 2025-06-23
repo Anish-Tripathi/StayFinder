@@ -1,4 +1,4 @@
-# StayFinder - Full-Stack Property Rental Platform
+# StayFinder - Unified Property Hosting & Booking Platform
 
 <div align="center">
   <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/client/public/logo.png" alt="StayFinder Logo" width="150" height="150"/>
