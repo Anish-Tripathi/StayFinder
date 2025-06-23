@@ -6,9 +6,24 @@
   <p><em>Discover stays from studio apartments to high-end villas worldwide. Connect hosts and guests seamlessly with our comprehensive property rental platform.</em></p>
 </div>
 
+---
+## Overview
+
+**StayFinder** is a comprehensive full-stack web application that revolutionizes property rental experiences. Built with modern technologies, it provides a seamless platform for property owners to list their spaces and travelers to discover perfect accommodations worldwide.
+
+### Key Highlights
+- Global Reach: Browse properties from studio apartments to luxury villas
+- Real-Time Features: Live messaging, instant booking updates
+- Multiple Payment Options: Stripe, UPI, and cash payments
+- Interactive Maps: OpenStreetMap integration with clustering
+- Responsive Design: Optimized for all devices
+- Modern UI/UX: Dark/light mode with intuitive navigation
+
+  ---
+
 ## Table of Contents
 
-- [Overview](#overview)
+- 
 - [Features](#features)
 - [Role-Based Features](#role-based-features)
 - [Tech Stack](#tech-stack)
@@ -273,17 +288,7 @@
 
 </details>
 
-## Overview
-
-**StayFinder** is a comprehensive full-stack web application that revolutionizes property rental experiences. Built with modern technologies, it provides a seamless platform for property owners to list their spaces and travelers to discover perfect accommodations worldwide.
-
-### Key Highlights
-- Global Reach: Browse properties from studio apartments to luxury villas
-- Real-Time Features: Live messaging, instant booking updates
-- Multiple Payment Options: Stripe, UPI, and cash payments
-- Interactive Maps: OpenStreetMap integration with clustering
-- Responsive Design: Optimized for all devices
-- Modern UI/UX: Dark/light mode with intuitive navigation
+---
 
 ## Features
 
@@ -319,6 +324,8 @@
 - **Theme Support**: Light and dark mode toggle
 - **Notification Controls**: Customizable alert preferences
 
+---
+
 ## Role-Based Features
 
 ### Guest Features
@@ -347,6 +354,8 @@
 | **Multi-Language Ready** | Internationalization support structure |
 | **Accessibility** | WCAG compliant with keyboard navigation |
 | **Performance Optimized** | Lazy loading, image optimization, caching |
+
+---
 
 ## Tech Stack
 
@@ -459,6 +468,8 @@ StayFinder/
 6. **Access the application**
    - Frontend: `http://localhost:3000`
    - Backend API: `http://localhost:5000`
+  
+  ---
 
 ## Environment Variables
 
@@ -499,6 +510,7 @@ CLOUDINARY_API_SECRET=your-api-secret
 CLIENT_URL=http://localhost:3000
 ```
 
+---
 ## API Documentation
 
 ### Authentication Endpoints
@@ -532,6 +544,7 @@ CLIENT_URL=http://localhost:3000
 - `POST /api/messages` - Send new message
 - `GET /api/conversations` - Get user conversations
 
+---
 ## Contributing
 
 We welcome contributions to StayFinder! Here's how you can help:
