@@ -35,7 +35,7 @@
 - Responsive Design: Optimized for all devices
 - Modern UI/UX: Dark/light mode with intuitive navigation
 
-  ---
+---
 
 ## Features
 
