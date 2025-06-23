@@ -474,7 +474,7 @@ StayFinder/
    ```
 
 6. **Access the application**
-   - Frontend: `http://localhost:3000`
+   - Frontend: `http://localhost:5173`
    - Backend API: `http://localhost:5000`
   
   ---
