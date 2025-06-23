@@ -590,7 +590,7 @@ I welcome contributions to StayFinder! Here's how you can help:
  
 - [Stripe](https://stripe.com) – for seamless payment integration  
 - [Leaflet](https://leafletjs.com) and [OpenStreetMap](https://www.openstreetmap.org) – for interactive maps  
-- [Google OAuth](https://clerk.dev) – for authentication services  
+- [Google OAuth 2.0](https://clerk.dev) – for authentication services  
 - [Socket.IO](https://socket.io) – for real-time messaging  
 - [MERN Stack Community](https://github.com/MERN) – for resources and open-source inspiration  
 
