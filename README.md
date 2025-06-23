@@ -7,9 +7,25 @@
 </div>
 
 ---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Role-Based Features](#role-based-features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Quick Start](#quick-start)
+- [Preview Gallery](#preview-gallery)
+- [Environment Variables](#environment-variables)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+
+  ---
 ## Overview
 
 **StayFinder** is a comprehensive full-stack web application that revolutionizes property rental experiences. Built with modern technologies, it provides a seamless platform for property owners to list their spaces and travelers to discover perfect accommodations worldwide.
+
 
 ### Key Highlights
 - Global Reach: Browse properties from studio apartments to luxury villas
@@ -21,20 +37,99 @@
 
   ---
 
-## Table of Contents
+## Features
 
-- 
-- [Features](#features)
-- [Role-Based Features](#role-based-features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Preview Gallery](#preview-gallery)
-- [Environment Variables](#environment-variables)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
+### Authentication & Security
+- **Multi-Auth Support**: Email/password with verification + Google OAuth2
+- **JWT Security**: Secure session management with refresh tokens
+- **Role-Based Access**: Distinct Guest and Host permissions
+- **Email Verification**: Account activation via Nodemailer
 
-## 🎨 Preview Gallery
+### Property Management
+- **Smart Search**: Location, dates, guests, and advanced filters
+- **Category Browsing**: Beach, mountain, city, and more
+- **Interactive Gallery**: High-resolution image carousels
+- **Map Integration**: Leaflet with OpenStreetMap clustering
+- **Detailed Listings**: Amenities, rules, host profiles, and reviews
+
+### Booking System
+- **Dynamic Pricing**: Real-time price calculations with breakdowns
+- **Flexible Payments**: Stripe cards, UPI, and cash options
+- **PDF Receipts**: Downloadable booking confirmations
+- **Status Management**: Book, cancel, pay pending, and rate stays
+- **History Tracking**: Complete booking timeline with filters
+
+### Real-Time Communication
+- **WhatsApp-Style Chat**: Emoji support and file sharing
+- **Live Notifications**: Instant message alerts
+- **Read Receipts**: Delivery and read status indicators
+- **Persistent Sessions**: Messages saved across logins
+
+### User Management
+- **Profile Customization**: Personal details and preferences
+- **Achievement System**: Host accomplishments and guest reviews
+- **Theme Support**: Light and dark mode toggle
+- **Notification Controls**: Customizable alert preferences
+
+---
+
+## Role-Based Features
+
+### Guest Features
+| Feature | Description |
+|---------|-------------|
+| **Property Search** | Advanced filtering by location, price, amenities, ratings |
+| **Booking Management** | View history, cancel bookings, pay dues, rate stays |
+| **Favorites System** | Save properties with grid/list view options |
+| **Review System** | Rate and review completed stays |
+| **Real-Time Chat** | Message hosts for inquiries and coordination |
+
+### Host Features
+| Feature | Description |
+|---------|-------------|
+| **Host Dashboard** | Analytics, revenue overview, recent bookings |
+| **Property Listings** | Add, edit, delete properties with 10-step wizard |
+| **Booking Management** | View, approve, cancel bookings with reasons |
+| **Guest Communication** | Real-time messaging system |
+| **Performance Metrics** | Occupancy rates, earnings, review scores |
+
+### Common Features
+| Feature | Description |
+|---------|-------------|
+| **Responsive Design** | Mobile-first approach with cross-device compatibility |
+| **Theme Switching** | Light/dark mode with user preference storage |
+| **Multi-Language Ready** | Internationalization support structure |
+| **Accessibility** | WCAG compliant with keyboard navigation |
+| **Performance Optimized** | Lazy loading, image optimization, caching |
+
+---
+
+## Tech Stack
+
+### Frontend
+- **React.js** - Component-based UI framework
+- **TailwindCSS** - Utility-first CSS framework
+- **Module CSS** - Scoped styling for components
+- **Socket.IO Client** - Real-time communication
+- **Leaflet** - Interactive map library
+
+### Backend
+- **Node.js** - JavaScript runtime environment
+- **Express.js** - Web application framework
+- **MongoDB** - NoSQL database with Mongoose ODM
+- **Socket.IO** - WebSocket implementation
+- **JWT** - JSON Web Token authentication
+
+### Services & APIs
+- **Stripe** - Payment processing
+- **Google OAuth** - Social authentication
+- **Nodemailer** - Email service
+- **OpenStreetMap** - Mapping service
+- **Cloudinary** - Image hosting and optimization
+
+---
+
+## Preview Gallery
 
 <details>
 <summary><strong>Home & Landing Pages</strong></summary>
@@ -290,97 +385,8 @@
 
 ---
 
-## Features
 
-### Authentication & Security
-- **Multi-Auth Support**: Email/password with verification + Google OAuth2
-- **JWT Security**: Secure session management with refresh tokens
-- **Role-Based Access**: Distinct Guest and Host permissions
-- **Email Verification**: Account activation via Nodemailer
-
-### Property Management
-- **Smart Search**: Location, dates, guests, and advanced filters
-- **Category Browsing**: Beach, mountain, city, and more
-- **Interactive Gallery**: High-resolution image carousels
-- **Map Integration**: Leaflet with OpenStreetMap clustering
-- **Detailed Listings**: Amenities, rules, host profiles, and reviews
-
-### Booking System
-- **Dynamic Pricing**: Real-time price calculations with breakdowns
-- **Flexible Payments**: Stripe cards, UPI, and cash options
-- **PDF Receipts**: Downloadable booking confirmations
-- **Status Management**: Book, cancel, pay pending, and rate stays
-- **History Tracking**: Complete booking timeline with filters
-
-### Real-Time Communication
-- **WhatsApp-Style Chat**: Emoji support and file sharing
-- **Live Notifications**: Instant message alerts
-- **Read Receipts**: Delivery and read status indicators
-- **Persistent Sessions**: Messages saved across logins
-
-### User Management
-- **Profile Customization**: Personal details and preferences
-- **Achievement System**: Host accomplishments and guest reviews
-- **Theme Support**: Light and dark mode toggle
-- **Notification Controls**: Customizable alert preferences
-
----
-
-## Role-Based Features
-
-### Guest Features
-| Feature | Description |
-|---------|-------------|
-| **Property Search** | Advanced filtering by location, price, amenities, ratings |
-| **Booking Management** | View history, cancel bookings, pay dues, rate stays |
-| **Favorites System** | Save properties with grid/list view options |
-| **Review System** | Rate and review completed stays |
-| **Real-Time Chat** | Message hosts for inquiries and coordination |
-
-### Host Features
-| Feature | Description |
-|---------|-------------|
-| **Host Dashboard** | Analytics, revenue overview, recent bookings |
-| **Property Listings** | Add, edit, delete properties with 10-step wizard |
-| **Booking Management** | View, approve, cancel bookings with reasons |
-| **Guest Communication** | Real-time messaging system |
-| **Performance Metrics** | Occupancy rates, earnings, review scores |
-
-### Common Features
-| Feature | Description |
-|---------|-------------|
-| **Responsive Design** | Mobile-first approach with cross-device compatibility |
-| **Theme Switching** | Light/dark mode with user preference storage |
-| **Multi-Language Ready** | Internationalization support structure |
-| **Accessibility** | WCAG compliant with keyboard navigation |
-| **Performance Optimized** | Lazy loading, image optimization, caching |
-
----
-
-## Tech Stack
-
-### Frontend
-- **React.js** - Component-based UI framework
-- **TailwindCSS** - Utility-first CSS framework
-- **Module CSS** - Scoped styling for components
-- **Socket.IO Client** - Real-time communication
-- **Leaflet** - Interactive map library
-
-### Backend
-- **Node.js** - JavaScript runtime environment
-- **Express.js** - Web application framework
-- **MongoDB** - NoSQL database with Mongoose ODM
-- **Socket.IO** - WebSocket implementation
-- **JWT** - JSON Web Token authentication
-
-### Services & APIs
-- **Stripe** - Payment processing
-- **Google OAuth** - Social authentication
-- **Nodemailer** - Email service
-- **OpenStreetMap** - Mapping service
-- **Cloudinary** - Image hosting and optimization
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 StayFinder/
@@ -414,6 +420,8 @@ StayFinder/
 ├── 📄 package.json            # Project dependencies
 └── 📄 README.md               # Project documentation
 ```
+
+---
 
 ## Quick Start
 
@@ -511,6 +519,7 @@ CLIENT_URL=http://localhost:3000
 ```
 
 ---
+
 ## API Documentation
 
 ### Authentication Endpoints
@@ -545,9 +554,10 @@ CLIENT_URL=http://localhost:3000
 - `GET /api/conversations` - Get user conversations
 
 ---
+
 ## Contributing
 
-We welcome contributions to StayFinder! Here's how you can help:
+I welcome contributions to StayFinder! Here's how you can help:
 
 ### Development Setup
 1. Fork the repository
