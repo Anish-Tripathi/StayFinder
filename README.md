@@ -1,7 +1,7 @@
 # StayFinder - Unified Property Hosting & Booking Platform
 
 <div align="center">
-  <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/client/public/logo.png" alt="StayFinder Logo" width="150" height="150"/>
+  <img src="./client/public/logo.png" alt="StayFinder Logo" width="150" height="150"/>
   <br />
   <p><em>Discover stays from studio apartments to high-end villas worldwide. Connect hosts and guests seamlessly with our comprehensive property rental platform.</em></p>
 </div>
@@ -157,21 +157,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Login Page</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/login.png" alt="Login Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/login.png" alt="Login Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Register Page</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/register.png" alt="Register Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/register.png" alt="Register Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
-      <h4>Forgot Password</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/forgot-password.png" alt="Forgot Password Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <h4>Forgot Password with email verification</h4>
+      <img src="./client/public/forgot-password.png" alt="Forgot Password Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
-      <h4>Reset Password</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/reset-password.png" alt="Reset Password Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <h4>Reset Password after  successful code verification</h4>
+      <img src="./client/public/reset-password.png" alt="Reset Password Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -185,21 +185,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Hero Carousel with Search bar</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/hero-carousel.png" alt="Hero Section" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/hero-carousel.png" alt="Hero Section" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Property Categories</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/categories.png" alt="Categories" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/categories.png" alt="Categories" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Featured Properties</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/featured-properties.png" alt="Featured Properties" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/featured-properties.png" alt="Featured Properties" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Homepage Statistics</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/homepage-stats.png" alt="Homepage Statistics" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/homepage-stats.png" alt="Homepage Statistics" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -213,21 +213,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Advanced Search Filters</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/search-filters.png" alt="Search Filters" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/search-filters.png" alt="Search Filters" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Map View with Clustering</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/map-view.png" alt="Map View" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/map-view.png" alt="Map View" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Search Results Grid</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/search-results.png" alt="Search Results" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/search-results.png" alt="Search Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Filter Options Panel</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/filter-panel.png" alt="Filter Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/filter-panel.png" alt="Filter Panel" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -241,21 +241,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Gallery</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-gallery.png" alt="Property Gallery" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/property-gallery.png" alt="Property Gallery" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Booking Form</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-form.png" alt="Booking Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/booking-form.png" alt="Booking Form" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Amenities</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-amenities.png" alt="Property Amenities" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/property-amenities.png" alt="Property Amenities" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Reviews & Ratings</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/reviews-ratings.png" alt="Reviews & Ratings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/reviews-ratings.png" alt="Reviews & Ratings" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -269,21 +269,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Booking History</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-history.png" alt="Booking History" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/booking-history.png" alt="Booking History" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Payment Options</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/payment-options.png" alt="Payment Options" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/payment-options.png" alt="Payment Options" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Booking Confirmation</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-confirmation.png" alt="Booking Confirmation" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/booking-confirmation.png" alt="Booking Confirmation" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Payment Receipt</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/payment-receipt.png" alt="Payment Receipt" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/payment-receipt.png" alt="Payment Receipt" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -297,21 +297,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Host Analytics</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/host-dashboard.png" alt="Host Dashboard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/host-dashboard.png" alt="Host Dashboard" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Property Listings Management</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/host-listings.png" alt="Host Listings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/host-listings.png" alt="Host Listings" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Revenue Overview</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/revenue-overview.png" alt="Revenue Overview" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/revenue-overview.png" alt="Revenue Overview" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Booking Requests</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-requests.png" alt="Booking Requests" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/booking-requests.png" alt="Booking Requests" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -325,21 +325,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Creation Wizard</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/add-property-wizard.png" alt="Add Property Wizard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/add-property-wizard.png" alt="Add Property Wizard" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Image Upload Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/image-upload.png" alt="Image Upload" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/image-upload.png" alt="Image Upload" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Details Form</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-details-form.png" alt="Property Details Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/property-details-form.png" alt="Property Details Form" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Pricing & Availability</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/pricing-availability.png" alt="Pricing & Availability" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/pricing-availability.png" alt="Pricing & Availability" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -353,21 +353,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Chat Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/chat-interface.png" alt="Chat Interface" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/chat-interface.png" alt="Chat Interface" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Message Notifications</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/notifications.png" alt="Notifications" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/notifications.png" alt="Notifications" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Conversation List</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/conversation-list.png" alt="Conversation List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/conversation-list.png" alt="Conversation List" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>File Sharing</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/file-sharing.png" alt="File Sharing" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/file-sharing.png" alt="File Sharing" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -381,21 +381,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>User Profile</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/user-profile.png" alt="User Profile" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/user-profile.png" alt="User Profile" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Settings & Preferences</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/settings.png" alt="Settings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/settings.png" alt="Settings" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Favorites List</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/favorites-list.png" alt="Favorites List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/favorites-list.png" alt="Favorites List" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Account Security</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/account-security.png" alt="Account Security" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/account-security.png" alt="Account Security" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -409,21 +409,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Dark Mode Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/dark-mode.png" alt="Dark Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/dark-mode.png" alt="Dark Mode" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Mobile Responsive Design</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/mobile-responsive.png" alt="Mobile Responsive" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/mobile-responsive.png" alt="Mobile Responsive" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Tablet Layout</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/tablet-layout.png" alt="Tablet Layout" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/tablet-layout.png" alt="Tablet Layout" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Light Mode Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/light-mode.png" alt="Light Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/light-mode.png" alt="Light Mode" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
