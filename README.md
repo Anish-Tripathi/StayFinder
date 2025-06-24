@@ -157,7 +157,7 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Login Page</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/login.png" alt="Login Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/login.png" alt="Login Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Register Page</h4>
