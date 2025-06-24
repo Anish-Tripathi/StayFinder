@@ -198,7 +198,7 @@
       <img src="./client/public/featured-properties.png" alt="Featured Properties" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
-      <h4>Homepage Statistics</h4>
+      <h4>Platform Features</h4>
       <img src="./client/public/features.png" alt="Homepage Statistics" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
@@ -222,11 +222,11 @@
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
-      <h4>Search Results Grid</h4>
+      <h4>Inidvidual Propery Map View</h4>
       <img src="./client/public/property-map.png" alt="Search Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
-      <h4>Filter Options Panel</h4>
+      <h4>Filter Property Results</h4>
       <img src="./client/public/search-results.png" alt="Filter Panel" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
