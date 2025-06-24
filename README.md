@@ -156,10 +156,13 @@
 <table>
   <tr>
     <td align="center" style="padding: 20px;">
+<<<<<<< HEAD
       <h4>Login Page</h4>
       <img src="./client/public/login.png" alt="Login Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
+=======
+>>>>>>> e94b0637ff9e844622be5c988e783ae267605639
       <h4>Register Page</h4>
       <img src="./client/public/register.png" alt="Register Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
@@ -202,7 +205,11 @@
       <img src="./client/public/featured-properties.png" alt="Featured Properties" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
+<<<<<<< HEAD
+      <h4>Homepage Statistics</h4>
+=======
       <h4>Platform Features</h4>
+>>>>>>> e94b0637ff9e844622be5c988e783ae267605639
       <img src="./client/public/features.png" alt="Homepage Statistics" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
@@ -226,11 +233,19 @@
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
+<<<<<<< HEAD
+      <h4>Search Results Grid</h4>
+      <img src="./client/public/property-map.png" alt="Search Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <h4>Filter Options Panel</h4>
+=======
       <h4>Inidvidual Propery Map View</h4>
       <img src="./client/public/property-map.png" alt="Search Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Filter Property Results</h4>
+>>>>>>> e94b0637ff9e844622be5c988e783ae267605639
       <img src="./client/public/search-results.png" alt="Filter Panel" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
@@ -308,14 +323,24 @@
       <img src="./client/public/booking-history-filter.png" alt="Filter by Payment Mode" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
-  <tr>
-    <td align="center" style="padding: 20px;">
+    <tr>
+   <td align="center" style="padding: 20px;">
       <h4>Filtered Booking Results</h4>
       <img src="./client/public/booking-history-filter-results.png" alt="Filtered Booking Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
+      <h4>Rate Your Stay</h4>
+      <img src="./client/public/rate-booking.png" alt="Detailed Booking View" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 20px;">
       <h4>Detailed Booking View</h4>
       <img src="./client/public/booking-history-details.png" alt="Detailed Booking View" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <h4>Cancelled Booking Details</h4>
+      <img src="./client/public/cancelled-details.png" alt="Filtered Booking Results" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
