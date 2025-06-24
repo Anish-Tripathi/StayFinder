@@ -150,6 +150,10 @@
 
 ## Preview Gallery
 
+> If any uploaded image appears scaled or unclear, please click on the image to view it in full resolution for better clarity.
+
+---
+
 <details>
 <summary><strong>Authentication & Authorization</strong></summary>
 
