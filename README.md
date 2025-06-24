@@ -203,7 +203,7 @@
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Homepage Statistics</h4>
-      <img src="./client/public/homepage-stats.png" alt="Homepage Statistics" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/features.png" alt="Homepage Statistics" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
