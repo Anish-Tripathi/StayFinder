@@ -21,13 +21,14 @@
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 
-  ---
+  ***
+
 ## Overview
 
 **StayFinder** is a comprehensive full-stack web application that revolutionizes property rental experiences. Built with modern technologies, it provides a seamless platform for property owners to list their spaces and travelers to discover perfect accommodations worldwide.
 
-
 ### Key Highlights
+
 - Global Reach: Browse properties from studio apartments to luxury villas
 - Real-Time Features: Live messaging, instant booking updates
 - Multiple Payment Options: Stripe, UPI, and cash payments
@@ -40,12 +41,14 @@
 ## Features
 
 ### Authentication & Security
+
 - **Multi-Auth Support**: Email/password with verification + Google OAuth2
 - **JWT Security**: Secure session management with refresh tokens
 - **Role-Based Access**: Distinct Guest and Host permissions
 - **Email Verification**: Account activation via Nodemailer
 
 ### Property Management
+
 - **Smart Search**: Location, dates, guests, and advanced filters
 - **Category Browsing**: Beach, mountain, city, and more
 - **Interactive Gallery**: High-resolution image carousels
@@ -53,6 +56,7 @@
 - **Detailed Listings**: Amenities, rules, host profiles, and reviews
 
 ### Booking System
+
 - **Dynamic Pricing**: Real-time price calculations with breakdowns
 - **Flexible Payments**: Stripe cards, UPI, and cash options
 - **PDF Receipts**: Downloadable booking confirmations
@@ -60,12 +64,14 @@
 - **History Tracking**: Complete booking timeline with filters
 
 ### Real-Time Communication
+
 - **WhatsApp-Style Chat**: Emoji support and file sharing
 - **Live Notifications**: Instant message alerts
 - **Read Receipts**: Delivery and read status indicators
 - **Persistent Sessions**: Messages saved across logins
 
 ### User Management
+
 - **Profile Customization**: Personal details and preferences
 - **Achievement System**: Host accomplishments and guest reviews
 - **Theme Support**: Light and dark mode toggle
@@ -76,37 +82,41 @@
 ## Role-Based Features
 
 ### Guest Features
-| Feature | Description |
-|---------|-------------|
-| **Property Search** | Advanced filtering by location, price, amenities, ratings |
-| **Booking Management** | View history, cancel bookings, pay dues, rate stays |
-| **Favorites System** | Save properties with grid/list view options |
-| **Review System** | Rate and review completed stays |
-| **Real-Time Chat** | Message hosts for inquiries and coordination |
+
+| Feature                | Description                                               |
+| ---------------------- | --------------------------------------------------------- |
+| **Property Search**    | Advanced filtering by location, price, amenities, ratings |
+| **Booking Management** | View history, cancel bookings, pay dues, rate stays       |
+| **Favorites System**   | Save properties with grid/list view options               |
+| **Review System**      | Rate and review completed stays                           |
+| **Real-Time Chat**     | Message hosts for inquiries and coordination              |
 
 ### Host Features
-| Feature | Description |
-|---------|-------------|
-| **Host Dashboard** | Analytics, revenue overview, recent bookings |
-| **Property Listings** | Add, edit, delete properties with 10-step wizard |
-| **Booking Management** | View, approve, cancel bookings with reasons |
-| **Guest Communication** | Real-time messaging system |
-| **Performance Metrics** | Occupancy rates, earnings, review scores |
+
+| Feature                 | Description                                      |
+| ----------------------- | ------------------------------------------------ |
+| **Host Dashboard**      | Analytics, revenue overview, recent bookings     |
+| **Property Listings**   | Add, edit, delete properties with 10-step wizard |
+| **Booking Management**  | View, approve, cancel bookings with reasons      |
+| **Guest Communication** | Real-time messaging system                       |
+| **Performance Metrics** | Occupancy rates, earnings, review scores         |
 
 ### Common Features
-| Feature | Description |
-|---------|-------------|
-| **Responsive Design** | Mobile-first approach with cross-device compatibility |
-| **Theme Switching** | Light/dark mode with user preference storage |
-| **Multi-Language Ready** | Internationalization support structure |
-| **Accessibility** | WCAG compliant with keyboard navigation |
-| **Performance Optimized** | Lazy loading, image optimization, caching |
+
+| Feature                   | Description                                           |
+| ------------------------- | ----------------------------------------------------- |
+| **Responsive Design**     | Mobile-first approach with cross-device compatibility |
+| **Theme Switching**       | Light/dark mode with user preference storage          |
+| **Multi-Language Ready**  | Internationalization support structure                |
+| **Accessibility**         | WCAG compliant with keyboard navigation               |
+| **Performance Optimized** | Lazy loading, image optimization, caching             |
 
 ---
 
 ## Tech Stack
 
 ### Frontend
+
 - **React.js** - Component-based UI framework
 - **TailwindCSS** - Utility-first CSS framework
 - **Module CSS** - Scoped styling for components
@@ -114,6 +124,7 @@
 - **Leaflet** - Interactive map library
 
 ### Backend
+
 - **Node.js** - JavaScript runtime environment
 - **Express.js** - Web application framework
 - **MongoDB** - NoSQL database with Mongoose ODM
@@ -121,6 +132,7 @@
 - **JWT** - JSON Web Token authentication
 
 ### Services & APIs
+
 - **Stripe** - Payment processing
 - **Google OAuth** - Social authentication
 - **Nodemailer** - Email service
@@ -139,27 +151,55 @@
 ## Preview Gallery
 
 <details>
+<summary><strong>Authentication & Authorization</strong></summary>
+
+<table>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <h4>Login Page</h4>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/login.png" alt="Login Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <h4>Register Page</h4>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/register.png" alt="Register Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <h4>Forgot Password</h4>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/forgot-password.png" alt="Forgot Password Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <h4>Reset Password</h4>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/reset-password.png" alt="Reset Password Page" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<details>
 <summary><strong>Home & Landing Pages</strong></summary>
 
 <table>
   <tr>
     <td align="center" style="padding: 20px;">
-      <h4>Hero Section with Search</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/home-hero.png" alt="Hero Section" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <h4>Hero Carousel with Search bar</h4>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/hero-carousel.png" alt="Hero Section" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Property Categories</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/categories.png" alt="Categories" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/categories.png" alt="Categories" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Featured Properties</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/featured-properties.png" alt="Featured Properties" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/featured-properties.png" alt="Featured Properties" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Homepage Statistics</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/homepage-stats.png" alt="Homepage Statistics" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/homepage-stats.png" alt="Homepage Statistics" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -173,21 +213,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Advanced Search Filters</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/search-filters.png" alt="Search Filters" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/search-filters.png" alt="Search Filters" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Map View with Clustering</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/map-view.png" alt="Map View" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/map-view.png" alt="Map View" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Search Results Grid</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/search-results.png" alt="Search Results" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/search-results.png" alt="Search Results" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Filter Options Panel</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/filter-panel.png" alt="Filter Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/filter-panel.png" alt="Filter Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -201,21 +241,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Gallery</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/property-gallery.png" alt="Property Gallery" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-gallery.png" alt="Property Gallery" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Booking Form</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/booking-form.png" alt="Booking Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-form.png" alt="Booking Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Amenities</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/property-amenities.png" alt="Property Amenities" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-amenities.png" alt="Property Amenities" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Reviews & Ratings</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/reviews-ratings.png" alt="Reviews & Ratings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/reviews-ratings.png" alt="Reviews & Ratings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -229,21 +269,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Booking History</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/booking-history.png" alt="Booking History" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-history.png" alt="Booking History" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Payment Options</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/payment-options.png" alt="Payment Options" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/payment-options.png" alt="Payment Options" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Booking Confirmation</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/booking-confirmation.png" alt="Booking Confirmation" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-confirmation.png" alt="Booking Confirmation" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Payment Receipt</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/payment-receipt.png" alt="Payment Receipt" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/payment-receipt.png" alt="Payment Receipt" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -257,21 +297,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Host Analytics</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/host-dashboard.png" alt="Host Dashboard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/host-dashboard.png" alt="Host Dashboard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Property Listings Management</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/host-listings.png" alt="Host Listings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/host-listings.png" alt="Host Listings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Revenue Overview</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/revenue-overview.png" alt="Revenue Overview" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/revenue-overview.png" alt="Revenue Overview" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Booking Requests</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/booking-requests.png" alt="Booking Requests" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/booking-requests.png" alt="Booking Requests" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -285,21 +325,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Creation Wizard</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/add-property-wizard.png" alt="Add Property Wizard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/add-property-wizard.png" alt="Add Property Wizard" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Image Upload Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/image-upload.png" alt="Image Upload" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/image-upload.png" alt="Image Upload" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Property Details Form</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/property-details-form.png" alt="Property Details Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/property-details-form.png" alt="Property Details Form" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Pricing & Availability</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/pricing-availability.png" alt="Pricing & Availability" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/pricing-availability.png" alt="Pricing & Availability" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -313,21 +353,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Chat Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/chat-interface.png" alt="Chat Interface" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/chat-interface.png" alt="Chat Interface" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Message Notifications</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/notifications.png" alt="Notifications" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/notifications.png" alt="Notifications" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Conversation List</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/conversation-list.png" alt="Conversation List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/conversation-list.png" alt="Conversation List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>File Sharing</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/file-sharing.png" alt="File Sharing" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/file-sharing.png" alt="File Sharing" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -341,21 +381,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>User Profile</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/user-profile.png" alt="User Profile" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/user-profile.png" alt="User Profile" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Settings & Preferences</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/settings.png" alt="Settings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/settings.png" alt="Settings" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Favorites List</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/favorites-list.png" alt="Favorites List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/favorites-list.png" alt="Favorites List" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Account Security</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/account-security.png" alt="Account Security" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/account-security.png" alt="Account Security" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -369,21 +409,21 @@
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Dark Mode Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/dark-mode.png" alt="Dark Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/dark-mode.png" alt="Dark Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Mobile Responsive Design</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/mobile-responsive.png" alt="Mobile Responsive" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/mobile-responsive.png" alt="Mobile Responsive" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <h4>Tablet Layout</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/tablet-layout.png" alt="Tablet Layout" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/tablet-layout.png" alt="Tablet Layout" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Light Mode Interface</h4>
-      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/preview/light-mode.png" alt="Light Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="https://github.com/Anish-Tripathi/StayFinder/blob/main/public/light-mode.png" alt="Light Mode" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
 </table>
@@ -391,7 +431,6 @@
 </details>
 
 ---
-
 
 ## Project Structure
 
@@ -433,6 +472,7 @@ StayFinder/
 ## Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - MongoDB (local or Atlas)
 - Git
@@ -440,12 +480,14 @@ StayFinder/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Anish-Tripathi/StayFinder.git
    cd StayFinder
    ```
 
 2. **Install dependencies**
+
    ```bash
    # Install server dependencies
    cd server
@@ -457,6 +499,7 @@ StayFinder/
    ```
 
 3. **Set up environment variables**
+
    ```bash
    # Copy example env file in server directory
    cp .env.example .env
@@ -464,12 +507,14 @@ StayFinder/
    ```
 
 4. **Seed the database** (optional)
+
    ```bash
    cd server
    npm run seed
    ```
 
 5. **Start the development servers**
+
    ```bash
    # Terminal 1 - Start backend server
    cd server
@@ -481,10 +526,11 @@ StayFinder/
    ```
 
 6. **Access the application**
+
    - Frontend: `http://localhost:5173`
    - Backend API: `http://localhost:5000`
-  
-  ---
+
+   ***
 
 ## Environment Variables
 
@@ -530,6 +576,7 @@ CLIENT_URL=http://localhost:3000
 ## API Documentation
 
 ### Authentication Endpoints
+
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
 - `POST /api/auth/google` - Google OAuth login
@@ -537,6 +584,7 @@ CLIENT_URL=http://localhost:3000
 - `GET /api/auth/verify/:token` - Email verification
 
 ### Property Endpoints
+
 - `GET /api/properties` - Get all properties with filters
 - `GET /api/properties/:id` - Get property details
 - `POST /api/properties` - Create new property (Host only)
@@ -544,18 +592,21 @@ CLIENT_URL=http://localhost:3000
 - `DELETE /api/properties/:id` - Delete property (Host only)
 
 ### Booking Endpoints
+
 - `POST /api/bookings` - Create new booking
 - `GET /api/bookings` - Get user bookings
 - `PUT /api/bookings/:id` - Update booking status
 - `DELETE /api/bookings/:id` - Cancel booking
 
 ### User Endpoints
+
 - `GET /api/users/profile` - Get user profile
 - `PUT /api/users/profile` - Update user profile
 - `GET /api/users/favorites` - Get user favorites
 - `POST /api/users/favorites/:propertyId` - Add to favorites
 
 ### Messaging Endpoints
+
 - `GET /api/messages/:conversationId` - Get conversation messages
 - `POST /api/messages` - Send new message
 - `GET /api/conversations` - Get user conversations
@@ -567,6 +618,7 @@ CLIENT_URL=http://localhost:3000
 I welcome contributions to StayFinder! Here's how you can help:
 
 ### Development Setup
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
 3. Make your changes and test thoroughly
@@ -575,6 +627,7 @@ I welcome contributions to StayFinder! Here's how you can help:
 6. Open a Pull Request
 
 ### Code Style Guidelines
+
 - Use TypeScript for type safety
 - Follow ESLint and Prettier configurations
 - Write meaningful commit messages
@@ -582,6 +635,7 @@ I welcome contributions to StayFinder! Here's how you can help:
 - Update documentation as needed
 
 ### Areas for Contribution
+
 - Bug fixes and performance improvements
 - UI/UX enhancements
 - Security improvements
@@ -594,12 +648,11 @@ I welcome contributions to StayFinder! Here's how you can help:
 
 ## Acknowledgements
 
- 
-- [Stripe](https://stripe.com) – for seamless payment integration  
-- [Leaflet](https://leafletjs.com) and [OpenStreetMap](https://www.openstreetmap.org) – for interactive maps  
-- [Google OAuth 2.0](https://clerk.dev) – for authentication services  
-- [Socket.IO](https://socket.io) – for real-time messaging  
-- [MERN Stack Community](https://github.com/MERN) – for resources and open-source inspiration  
+- [Stripe](https://stripe.com) – for seamless payment integration
+- [Leaflet](https://leafletjs.com) and [OpenStreetMap](https://www.openstreetmap.org) – for interactive maps
+- [Google OAuth 2.0](https://clerk.dev) – for authentication services
+- [Socket.IO](https://socket.io) – for real-time messaging
+- [MERN Stack Community](https://github.com/MERN) – for resources and open-source inspiration
 
 ---
 
