@@ -301,7 +301,7 @@
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Bookings Filter</h4>
-      <img src="./client/public/Booking-history-filter.png" alt="Filter by Payment Mode" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/booking-history-filter.png" alt="Filter by Payment Mode" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
