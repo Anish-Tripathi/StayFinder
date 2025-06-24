@@ -191,15 +191,15 @@
       <h4>Hero Carousel with Search bar</h4>
       <img src="./client/public/hero-carousel.png" alt="Hero Section" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
-    <td align="center" style="padding: 20px;">
-      <h4>Property Categories</h4>
-      <img src="./client/public/categories.png" alt="Categories" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+       <td align="center" style="padding: 20px;">
+      <h4>Featured Properties</h4>
+      <img src="./client/public/featured-properties.png" alt="Featured Properties" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
-    <td align="center" style="padding: 20px;">
-      <h4>Featured Properties</h4>
-      <img src="./client/public/featured-properties.png" alt="Featured Properties" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+     <td align="center" style="padding: 20px;">
+      <h4>Property Categories</h4>
+      <img src="./client/public/categories.png" alt="Categories" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Platform Features</h4>
