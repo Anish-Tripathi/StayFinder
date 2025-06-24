@@ -156,12 +156,12 @@
 <table>
   <tr>
     <td align="center" style="padding: 20px;">
-      <h4>Login Page</h4>
-      <img src="./client/public/login.png" alt="Login Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-    </td>
-    <td align="center" style="padding: 20px;">
       <h4>Register Page</h4>
       <img src="./client/public/register.png" alt="Register Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    </td>
+     <td align="center" style="padding: 20px;">
+      <h4>Login Page</h4>
+      <img src="./client/public/login.png" alt="Login Page" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
@@ -414,7 +414,7 @@
     </td>
     <td align="center" style="padding: 20px;">
       <h4>Bookings Details</h4>
-      <img src="./client/public/host-bookings-details.png" alt="Image Upload" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      <img src="./client/public/host-booking-details.png" alt="Image Upload" width="500" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     </td>
   </tr>
   <tr>
